@@ -9,7 +9,7 @@
         }
     ],
     "require": {
-        "google/apiclient": "^2.8",
+        "google/apiclient": "^2.8"
     },
     "autoload": {
         "psr-4": {
@@ -22,5 +22,4 @@
             "src/aliases.php"
         ]
     }
-    "require": {}
 }
