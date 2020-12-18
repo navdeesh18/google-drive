@@ -2,14 +2,13 @@
     "name": "navdeesh18/google-drive",
     "type": "library",
     "license": "MIT",
-    "minimum-stability": "dev",
     "authors": [
         {
             "name": "navdeesh khurana",
             "email": "khurana.navdeesh@yahoo.com"
         }
     ],
-    "require": {
+    "require-dev": {
         "google/apiclient": "^2.8"
     },
     "autoload": {
