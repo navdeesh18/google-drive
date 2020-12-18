@@ -2,6 +2,7 @@
     "name": "navdeesh18/google-drive",
     "type": "library",
     "license": "MIT",
+    "minimum-stability": "dev",
     "authors": [
         {
             "name": "navdeesh khurana",
