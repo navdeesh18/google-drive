@@ -1,0 +1,26 @@
+{
+    "name": "navdeesh18/google-drive",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "navdeesh khurana",
+            "email": "khurana.navdeesh@yahoo.com"
+        }
+    ],
+    "require": {
+        "google/apiclient": "^2.8",
+    },
+    "autoload": {
+        "psr-4": {
+            "Nkcx\\GoogleDriveApi\\": "src/"
+        },
+        "files": [
+            "src/aliases.php"
+        ],
+        "classmap": [
+            "src/aliases.php"
+        ]
+    }
+    "require": {}
+}
