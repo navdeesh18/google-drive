@@ -36,9 +36,9 @@ class GoogleDriveApi
             if ($client->getRefreshToken()) {
                 $client->fetchAccessTokenWithRefreshToken($client->getRefreshToken());
             }
-            $this->access_token = $client->getAccessToken()['access_token'],
-            $this->expires_in = $client->getAccessToken()['expires_in'],
-            $this->created = $client->getAccessToken()['created'],
+            $this->access_token = $client->getAccessToken()['access_token'];
+            $this->expires_in = $client->getAccessToken()['expires_in'];
+            $this->created = $client->getAccessToken()['created'];
         }
 
         $client->refreshToken($refresh_token);
